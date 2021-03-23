@@ -1,1 +1,407 @@
-Hello World
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+<!-------------------------------------------------------------- Polices ----------------------------------------------------------->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/ico" href="img/favicon.ico"> 
+    <link rel="apple-touch-icon" href="img/favicon.ico">
+
+<!----------------------------------------------------------- Font Awesome --------------------------------------------------------->
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+
+
+<!--------------------------------------------------------- Fichier CSS perso ------------------------------------------------------>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="galery.css">
+
+        <title>Portfolio | Emma LHOMME</title>
+
+    </head>
+    
+    <body>
+
+<!--------------------------------------------------------- NAVIGATION ------------------------------------------------------------->
+        <nav class="nav" id="nav">
+            <div class="el">
+              <a href="#propos"></a>
+            <img class="logo" src="img/Logo.png" alt="">
+            </div>
+
+            <input type="checkbox" id="burger-toggle" >
+            <label for="burger-toggle" class="burger">
+                <span class="bar"></span>
+            </label>
+  
+            <ul class="nav-list">
+                <li><a href="#propos">Accueil</a></li>
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="#experiences">Expériences</a></li>
+                <li><a href="#realisations">Réalisations</a></li>
+                <li><a href="#contact">Contact</a></li>
+
+                <div class="reseau">
+                    <!--- <a href="https://www.instagram.com/kumyeko/" target="blank"><i class="fab fa-instagram" href=""></i></a>
+                    <a href="https://www.behance.net/emmalhomme" target="blank"><i class="fab fa-behance"></i></a>
+                    <a href="https://www.linkedin.com/in/emma-lhomme-7b99741ba/" target="blank"><i class="fab fa-linkedin-in"></i></a> -->
+                    <a href="doc/CV_Emma_LHOMME.pdf" target="blank"><i class="fas fa-address-card"></i></a>
+                </div>
+            
+            </ul>
+            
+        </nav>
+
+<!--------------------------------------------------------- MAIN -------------------------------------------------------------->
+
+        <main>
+
+<!------------------------------------------------------- PROPOS -------------------------------------------------------------->
+
+            <section class="propos" id="propos">
+
+                <div class="moi">
+                  <img src="img/img_6829-min-2_optimized.jpg" class="photo-moi" alt="">
+                  <h1 class="hello">Emma Lhomme, étudiante en Digital.</h1>
+                </div>
+
+                <div class="details">
+                    <p>Je suis actuellement étudiante en Bachelor Chef de Projet Digital 1ère année à Digital Campus Paris.</p>
+                    <p>Créative, curieuse, rigoureuse, investie et appliquée, je souhaiterais intégrer une entreprise en alternance pour mettre en application mes compétences en Graphisme, Web et Vidéo.</p>
+                </div>
+
+                <svg class="arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.247 8.718">
+                  <path fill="currentColor"
+                      d="M7.626 6.09L13.391.32a1.085 1.085 0 011.539 0 1.1 1.1 0 010 1.543L8.398 8.4a1.088 1.088 0 01-1.5.032L.317 1.868A1.09 1.09 0 011.856.325z" />
+              </svg>
+                
+               
+              </section>
+
+            <!-- Avion en papier -->
+
+              <div class="paperplane">
+              
+                <div class="details-plane">
+                  <p>Créative, curieuse, rigoureuse, investie et appliquée, je souhaiterais intégrer une entreprise en alternance pour mettre en application mes compétences en Graphisme, Web et Vidéo.</p>
+                </div>
+                
+                <svg viewBox="0 0 3387 1270">
+                    <path id="planePath" class="planePath" d="M-226 626c439,4 636,-213 934,-225 755,-31 602,769 1334,658 562,-86 668,-698 266,-908 -401,-210 -893,189 -632,630 260,441 747,121 1051,91 360,-36 889,179 889,179"/>
+                    
+                    <g id="plane">
+                     <polygon class="fil1" points="-141,-10 199,0 -198,-72 -188,-61 -171,-57 -184,-57 "/>
+                     <polygon class="fil2" points="199,0 -141,-10 -163,63 -123,9 "/>
+                     <polygon class="fil3" points="-95,39 -113,32 -123,9 -163,63 -105,53 -108,45 -87,48 -90,45 -103,41 -94,41 "/>
+                     <path class="fil4" d="M-87 48l-21 -3 3 8 19 -4 -1 -1zm-26 -16l18 7 -2 -1 32 -7 -29 1 11 -4 -24 -1 -16 -18 10 23zm10 9l13 4 -4 -4 -9 0z"/>
+                     <polygon class="fil1" points="-83,28 -94,32 -65,31 -97,38 -86,49 -67,70 199,0 -123,9 -107,27 "/>
+                    </g>
+                    
+
+                    <!-- Define the motion path animation -->
+                        <animateMotion 
+                                     xlink:href="#plane"
+                                     dur="7s" 
+                                     repeatCount="indefinite" 
+                                     rotate="auto">
+                        <mpath xlink:href="#planePath" />
+                        </animateMotion>
+                  </svg>
+
+                </div>
+
+            <!-- Avion en papier -->
+
+<!--------------------------------------------------------- COMPETENCES -------------------------------------------------------------->
+
+                <section class="competences" id="competences">
+                    <div>
+                        <h1 class="comp">Mes Compétences 💻</h1>
+                        <div class="trait"></div>
+                    </div>
+                    <div class="details2">
+                        <p>Depuis le mois de septembre 2020, grâce aux enseignements de l’école et à la réalisation de nombreux travaux en groupe comme en autonomie, j’ai acquis des compétences en Graphisme/PAO, en photographie, en vidéo, en développement ainsi qu’en communication.
+                        </p>
+                    </div>
+
+                    <div class="images-competences">
+
+                        <figure class="comp-img">
+                            <div class='button'>
+                                <span class='button--pulse'></span>
+                              </div>
+                            <img class="photo" src="img/eugen-aschenbrenner-77mkL_qR8_w-unsplash.jpg" alt="dessin" />
+                            <figcaption>
+                              <h3>Dessin</h3>
+                              <p>Je suis passionnée par le dessin depuis que je sais tenir un crayon. Je dessine autant sur papier que sur Ipad Pro et tablette graphique.</p>
+                           </figcaption><i class="ion-ios-home-outline"></i>
+                          </figure>
+
+                          <figure class="comp-img">
+                            <div class='button'>
+                                <span class='button--pulse'></span>
+                              </div>
+                            <img class="photo" src="img/leone-venter-pVt9j3iWtPM-unsplash.jpg" alt="graphisme" />
+                            <figcaption>
+                              <h3>Graphisme</h3>
+                              <p>Illustrations vectorielles, identitée visuelle, logotypes, print, Illustrator et Procreate.</p>
+                            </figcaption><i class="ion-ios-home-outline"></i>
+                          </figure>
+
+                          <figure class="comp-img">
+                            <div class='button'>
+                                <span class='button--pulse'></span>
+                              </div>
+                              <img class="photo" src="img/Capture d’écran 2021-01-06 à 20.04.51.png" alt="Developpement" />
+                            <figcaption>
+                              <h3>Dev</h3>
+                              <p>UI Design, Zoning / Wireframe, développement Web, Algorithmes, Sites statiques et intégration Adobe XD, HTML 5, CSS3, Javascript.</p>
+                            </figcaption><i class="ion-ios-location-outline"></i>
+                          </figure>
+
+                          <figure class="comp-img">
+                            <div class='button'>
+                                <span class='button--pulse'></span>
+                              </div>
+                              <img class="photo" src="img/seth-doyle-3rcT6_NjjbU-unsplash.jpg" alt="Video" />
+                            <figcaption>
+                              <h3>Vidéo</h3>
+                              <p>Réalisation de courts métrages, écriture de scénario, montage vidéo, animations 2D et 3D, photographies, Photoshop.</p>
+                            </figcaption><i class="ion-ios-location-outline"></i>
+                          </figure>
+                    </div>
+
+                    <div class="row2">
+                      <a href="#realisations">
+                      <button class="btn btn-full">Voir mes Réalisations</button>
+                      </a>
+                    </div>
+                    
+                </section>
+
+<!--------------------------------------------------------- EXPÉRIENCES -------------------------------------------------------------->
+
+                <section class="experiences" id="experiences">
+                  <div>
+                    <h1 class="exp">Mes Expériences 🎓</h1>
+                    <div class="trait"></div>
+                  </div>
+                    
+                  <div class="timeline">
+
+                    <div class="container container-left">
+                      <div class="images" style="background-image:url('img/dg\ logo\ blanc.jpg')"></div>
+                      <div class="content" data-aos="zoom-in">
+                        <span>2020 - Aujourd'hui</span>
+                        <h2>Digital Campus Paris</h2>
+                        <p>Bachelor Chef de Projet Digital - Formation en 3 ans</p>
+                        <p>Apprentissage de la gestion de projet et des grands domaines du digital : design, UI/UX, développement web, marketing digital, communication et vidéo/motion.</p>
+                        <p>En 3eme année choix d'une spécialisation : Motion Design ou UI Design ou UX Design ou Webmarketing</p>
+                      </div>
+                    </div>
+
+                    <div class="container container-right">
+                      <div class="images" style="background-image:url('img/bnp-logo.jpg')"></div>
+                      <div class="content" data-aos="zoom-in">
+                        <span>2020</span>
+                        <h2>BNP Paribas</h2>
+                        <p>Auxiliaire de vacances en back-office Financement <br> Préparation et traitement des remboursements anticipés.</p>
+                      </div>
+                    </div>
+
+                    <div class="container container-left">
+                      <div class="images" style="background-image:url('img/jv.jpeg')"></div>
+                      <div class="content" data-aos="zoom-in">
+                        <span>2017 - 2020</span>
+                        <h2>Lycée Jean Vilar</h2>
+                        <p>Baccalauréat Sciences Économiques et Sociales</p>
+                        <p>Spécialité Sciences Politiques - Option Histoire des Arts <br> Mention Très Bien</p>
+                      </div>
+                    </div>
+
+                    <div class="container container-right">
+                      <div class="images" style="background-image:url('img/oricom-logo.jpeg')"></div>
+                      <div class="content" data-aos="zoom-in">
+                        <span>2016</span>
+                        <h2>Stage Oricom</h2>
+                        <p>
+                          Stage de 3ème en agence de communication <br> Création de logotypes et préparation de publipostages.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+              
+                </section>
+
+<!--------------------------------------------------------- RÉALISATIONS -------------------------------------------------------------->
+
+
+                <section class="realisations" id="realisations">
+                  <div>
+                    <h1 class="real">Mes réalisations 🖋</h1>
+                    <div class="trait"></div>
+                  </div>
+                  
+                    
+                    <section class="gallery">
+                      <div class="row">
+                        <ul>
+                          <a href="#" class="close"></a>
+                          <li>
+                            <a href="#item01">
+                              <img src="img/SP copie.jpg" alt="">
+                            </a>
+                          </li>
+                    
+                          <li>
+                            <a href="#item02">
+                              <img src="img/SEED.jpg" alt="">
+                            </a>
+                          </li>
+                    
+                          <li>
+                            <a href="#item03">
+                              <img src="https://cdn.dribbble.com/users/545884/screenshots/4154721/dive--001.png" alt="">
+                            </a>
+                          </li>
+                          <li>
+                            <a class="image" href="#item01">
+                              <img src="https://cdn.dribbble.com/users/545884/screenshots/4356121/darko--dr.jpg" alt="">
+                            </a>
+                          </li>
+                          <li>
+                            <a class="image" href="#item02">
+                              <img src="https://cdn.dribbble.com/users/545884/screenshots/3695553/news.png" alt="">
+                            </a>
+                          </li>
+                          <li>
+                            <a class="image" href="#item01">
+                              <img src="https://cdn.dribbble.com/users/545884/screenshots/4360101/liberosis_--_12.png" alt="">
+                            </a>
+                          </li>
+                          <li>
+                            <a class="image" href="#item01">
+                              <img src="img/lucas.jpg" alt="">
+                            </a>
+                          </li>
+                          <li>
+                            <a class="image" href="#item01">
+                              <img src="https://cdn.dribbble.com/users/545884/screenshots/2883479/cover.jpg" alt="">
+                            </a>
+                          </li>
+                          
+                        </ul>
+                      </div> <!-- / row -->
+                    
+                      <!-- Item 01 -->
+                      <div id="item01" class="port">
+
+                        <div class="row">
+                          <div class="description">
+                            <h1>WebDesign | Sonia Pâtisserie</h1>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque doloremque eligendi rerum porro, modi deleniti. Tempora dignissimos ea nemo. Harum ad laboriosam ex molestiae qui nostrum unde sint laborum architecto.</p>
+                          </div>
+                          <div class="carousel">
+                            <button id="back01">&lt</button>
+                            <img src="img/Artboard 1.jpg">
+                            <button id="forward01">&gt</button>
+                          </div>
+                        </div>
+
+                      </div>
+                    
+                    
+                      <!-- Item 02 -->
+                      <div id="item02" class="port">
+                      
+                        <div class="row">
+                          <div class="description">
+                            <h1>Projet Application | SEED</h1>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque doloremque eligendi rerum porro, modi deleniti. Tempora dignissimos ea nemo. Harum ad laboriosam ex molestiae qui nostrum unde sint laborum architecto.</p>
+                          </div>
+                            <div class="carousel">
+                              <button id="back02">&lt</button>
+                              <img src="img/SEED2.jpg">
+                              <button id="forward02">&gt</button>
+                            </div>
+                        </div>
+                      </div>
+
+                      <!-- Item 03 -->
+                      <div id="item03" class="port">
+                      
+                        <div class="row">
+                          <div class="description">
+                            <h1>Projet Application | SEED</h1>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque doloremque eligendi rerum porro, modi deleniti. Tempora dignissimos ea nemo. Harum ad laboriosam ex molestiae qui nostrum unde sint laborum architecto.</p>
+                          </div>
+                            <div class="carousel">
+                              <button id="back03">&lt</button>
+                              <img src="img/Artboard 1.jpg">
+                              <button id="forward03">&gt</button>
+                            </div>
+                        </div>
+                      </div>
+
+                    </section> 
+
+
+                <div class="row3">
+                  <a href="doc/Book_Emma_Lhomme.pdf" target="blank">
+                  <button class="btn btn-full">Voir mon Book !</button>
+                  </a>
+                </div>
+
+                </section>
+
+<!--------------------------------------------------------- CONTACT -------------------------------------------------------------->
+
+                <section class="contact" id="contact">
+                  <div>
+                    <h1 class="real">Contact</h1>
+                    <div class="trait"></div>
+                  </div>
+
+                  <div class="details3">
+                    <p>Merci d'avoir visité mon Portfolio !<br>N'hésitez pas à m'envoyer un mail ou à me contacter sur les réseaux sociaux !
+                    </p>
+                </div>
+
+                  <div class="row4">
+                    <a href="mailto:emma.lhomme77@gmail.com?subject=Portfolio:" >
+                    <button class="btn btn-full"><i class="fas fa-envelope"></i>&nbsp M'envoyer un mail</button>
+                    </a>
+                  </div>
+
+                  <div class="reseau2">
+                    <a href="https://www.instagram.com/kumyeko/" target="blank"><i class="fab fa-instagram" href=""></i></a>
+                    <a href="https://www.behance.net/emmalhomme" target="blank"><i class="fab fa-behance"></i></a>
+                    <a href="https://www.linkedin.com/in/emma-lhomme-7b99741ba/" target="blank"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+
+                </section>
+
+<!--------------------------------------------------------- FOOTER -------------------------------------------------------------->
+                <footer>
+                  <div class="p-footer">
+                  <p>Copyright © Emma LHOMME 2021 <br> Tout droits réservés</p>
+                </div>
+                </footer>
+
+
+        </main>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+        <script src="script.js"></script>
+        <script src="galery.js"></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="./script.js"></script>
+        
+    </body>
+</html>
