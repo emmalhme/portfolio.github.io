@@ -180,6 +180,42 @@ $('#forward09').click(
     }
 );
 
+$('#back10').click(
+    () => {
+        const img = ["img/story2.jpg", "img/story3.jpg"]
+        i <= 0 ? i = img.length - 1 : i--;
+        $('#item10 .carousel img').attr('src', img[i]);
+
+    }
+);
+
+$('#forward10').click(
+    () => {
+        const img = ["img/story2.jpg", "img/story3.jpg"]
+        i >= img.length -1 ? i = 0 : i++;
+        $('#item10 .carousel img').attr('src', img[i]);
+
+    }
+);
+
+$('#back11').click(
+    () => {
+        const img = ["img/kpop2.jpg", "img/kpop3.jpg", "img/kpop4.jpg"]
+        i <= 0 ? i = img.length - 1 : i--;
+        $('#item11 .carousel img').attr('src', img[i]);
+
+    }
+);
+
+$('#forward11').click(
+    () => {
+        const img = ["img/kpop2.jpg", "img/kpop3.jpg", "img/kpop4.jpg"]
+        i >= img.length -1 ? i = 0 : i++;
+        $('#item11 .carousel img').attr('src', img[i]);
+
+    }
+);
+
 document.addEventListener('DOMContentLoaded',function(event){
 
     var dataText = [ 

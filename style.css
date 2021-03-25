@@ -133,9 +133,7 @@ ul.nav-list{
     color: black;
 }
 
-.nav-list li a:hover{
-    border-bottom: 1px solid #9bc9d2;
-}
+
 
 .burger .bar{
     display: inline-block;
@@ -228,6 +226,25 @@ ul.nav-list{
   color: #9bc9d2;
   animation: bounce 2s infinite;
   animation-delay: 2s;
+}
+
+.fa-address-card:hover #textcv {
+  display: block;
+}
+
+#textcv{
+  display: none;
+  position: absolute;
+  right: 3rem;
+  background-color: #ffffff;
+  border-radius: 5px;
+  color: black;
+  padding: 0.5rem 2.1rem 0.4rem 0.4rem;
+  font-size: 1.2rem;
+  text-transform: none;
+  font-weight: 600;
+  font-family: 'Raleway', sans-serif;
+  transition-duration: 0.2s;
 }
 
 @keyframes bounce {
