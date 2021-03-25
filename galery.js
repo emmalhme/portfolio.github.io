@@ -20,58 +20,165 @@ $(".gallery ul li a").click(function () {
 let i = 0;
 $('#back01').click(
     () => {
-        const img = ["img/Artboard 1.jpg", "img/Affiche_Converse.jpg", "img/Affiche_WayV.jpg"]
+        const img = ["img/SP3.jpg", "img/SP4.jpg"]
         i <= 0 ? i = img.length - 1 : i--;
-        $('#item01 .row img').attr('src', img[i]);
+        $('#item01 .carousel img').attr('src', img[i]);
 
     }
 );
 
 $('#forward01').click(
     () => {
-        const img = ["img/Artboard 1.jpg", "img/Affiche_Converse.jpg", "img/Affiche_WayV.jpg"]
+        const img = ["img/SP3.jpg", "img/SP4.jpg"]
         i >= img.length -1 ? i = 0 : i++;
-        $('#item01 .row img').attr('src', img[i]);
+        $('#item01 .carousel img').attr('src', img[i]);
 
     }
 );
 
 $('#back02').click(
     () => {
-        const img = ["img/SEED2.jpg", "img/SEED.jpg", "img/Affiche_WayV.jpg"]
+        const img = ["img/SEED2.jpg", "img/logoseed.jpg"]
         i <= 0 ? i = img.length - 1 : i--;
-        $('#item02 .row img').attr('src', img[i]);
+        $('#item02 .carousel img').attr('src', img[i]);
 
     }
 );
 
 $('#forward02').click(
     () => {
-        const img = ["img/SEED2.jpg", "img/SEED.jpg", "img/Affiche_WayV.jpg"]
+        const img = ["img/SEED2.jpg", "img/logoseed.jpg"]
         i >= img.length -1 ? i = 0 : i++;
-        $('#item02 .row img').attr('src', img[i]);
+        $('#item02 .carousel img').attr('src', img[i]);
 
     }
 );
 
 $('#back03').click(
     () => {
-        const img = ["img/Artboard 1.jpg", "img/SEED2.jpg", "img/Affiche_WayV.jpg"]
+        const img = ["img/Lucas35.jpg", "img/Lucas33.jpg", "img/Lucas34.jpg"]
         i <= 0 ? i = img.length - 1 : i--;
-        $('#item03 .row img').attr('src', img[i]);
+        $('#item03 .carousel img').attr('src', img[i]);
 
     }
 );
 
 $('#forward03').click(
     () => {
-        const img = ["img/Artboard 1.jpg", "img/SEED2.jpg", "img/Affiche_WayV.jpg"]
+        const img = ["img/Lucas35.jpg", "img/Lucas33.jpg", "img/Lucas34.jpg"]
         i >= img.length -1 ? i = 0 : i++;
-        $('#item03 .row img').attr('src', img[i]);
+        $('#item03 .carousel img').attr('src', img[i]);
 
     }
 );
 
+$('#back04').click(
+    () => {
+        const img = ["img/nouilles2.jpg"]
+        i <= 0 ? i = img.length - 1 : i--;
+        $('#item04 .carousel img').attr('src', img[i]);
+
+    }
+);
+
+$('#forward04').click(
+    () => {
+        const img = ["img/nouilles2.jpg"]
+        i >= img.length -1 ? i = 0 : i++;
+        $('#item04 .carousel img').attr('src', img[i]);
+
+    }
+);
+
+$('#back05').click(
+    () => {
+        const img = ["img/mat2.jpg", "img/mat3.jpg"]
+        i <= 0 ? i = img.length - 1 : i--;
+        $('#item05 .carousel img').attr('src', img[i]);
+
+    }
+);
+
+$('#forward05').click(
+    () => {
+        const img = ["img/mat2.jpg", "img/mat3.jpg"]
+        i >= img.length -1 ? i = 0 : i++;
+        $('#item05 .carousel img').attr('src', img[i]);
+
+    }
+);
+
+$('#back06').click(
+    () => {
+        const img = ["img/music2.jpg", "img/music3.jpg"]
+        i <= 0 ? i = img.length - 1 : i--;
+        $('#item06 .carousel img').attr('src', img[i]);
+
+    }
+);
+
+$('#forward06').click(
+    () => {
+        const img = ["img/music2.jpg", "img/music3.jpg"]
+        i >= img.length -1 ? i = 0 : i++;
+        $('#item06 .carousel img').attr('src', img[i]);
+
+    }
+);
+
+$('#back07').click(
+    () => {
+        const img = ["img/voyage2.jpg", "img/voyage3.jpg"]
+        i <= 0 ? i = img.length - 1 : i--;
+        $('#item07 .carousel img').attr('src', img[i]);
+
+    }
+);
+
+$('#forward07').click(
+    () => {
+        const img = ["img/voyage2.jpg", "img/voyage3.jpg"]
+        i >= img.length -1 ? i = 0 : i++;
+        $('#item07 .carousel img').attr('src', img[i]);
+
+    }
+);
+
+$('#back08').click(
+    () => {
+        const img = ["img/mat2.jpg", "img/mat3.jpg"]
+        i <= 0 ? i = img.length - 1 : i--;
+        $('#item08 .carousel img').attr('src', img[i]);
+
+    }
+);
+
+$('#forward08').click(
+    () => {
+        const img = ["img/mat2.jpg", "img/mat3.jpg"]
+        i >= img.length -1 ? i = 0 : i++;
+        $('#item08 .carousel img').attr('src', img[i]);
+
+    }
+);
+
+$('#back09').click(
+    () => {
+        const img = ["img/kpop2.jpg", "img/kpop3.jpg", "img/kpop4.jpg"]
+        i <= 0 ? i = img.length - 1 : i--;
+        $('#item09 .carousel img').attr('src', img[i]);
+
+    }
+);
+
+$('#forward09').click(
+    () => {
+        const img = ["img/kpop2.jpg", "img/kpop3.jpg", "img/kpop4.jpg"]
+        i >= img.length -1 ? i = 0 : i++;
+        $('#item09 .carousel img').attr('src', img[i]);
+
+    }
+);
 
 document.addEventListener('DOMContentLoaded',function(event){
 

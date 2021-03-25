@@ -81,7 +81,7 @@ h3{
 }
 
 nav{
-    padding: 5rem 5rem 5rem 5rem;
+    padding: 0rem 5rem 0rem 5rem;
     position: fixed;
     background-color: rgba(255, 255, 255, 1);
     height: 10rem;
@@ -134,7 +134,7 @@ ul.nav-list{
 }
 
 .nav-list li a:hover{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #9bc9d2;
 }
 
 .burger .bar{
@@ -218,6 +218,7 @@ ul.nav-list{
   color: #fff;
   top: 5px;
 }
+
 
 .arrow {
   width: 25px;
@@ -360,7 +361,7 @@ ul.nav-list{
 }
 
 .row2{
-  margin: 2rem;
+  margin: 4rem 2rem;
 }
 
 .details2 p{
@@ -674,6 +675,16 @@ figure.comp-img.hover i {
   line-height: 1.6;
   padding-top: 5px;
 }
+
+#check{
+  height: 35px;
+}
+
+.experiences span{
+  animation: none;
+  border: none;
+}
+
 
 /************************************************************** RÉALISATIONS ***************************************************************/
 

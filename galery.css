@@ -19,6 +19,7 @@ a {
   color: #fff;
 }
 
+
 .row {
   width: 100%;
   max-width: 1250px;
@@ -35,6 +36,24 @@ a {
 }
 
 
+.row h2{
+  color: #9bc9d2;
+  font-style: italic;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+.row h3{
+  font-size: 17px;
+  font-weight: 600;
+  margin-top: 30px;
+  color: rgb(124, 124, 124);
+
+}
+
+.row video{
+  width: 60%;
+}
 .gallery ul li {
   float: left;
   margin: 0 0.8771929825%;
@@ -68,6 +87,11 @@ a {
   line-height: 0;
   object-fit: cover;
 }
+
+.gallery ul li a img:hover {
+  opacity: 0.5;
+}
+
 .gallery ul li a:before {
   position: absolute;
   width: 32px;
@@ -92,13 +116,13 @@ a {
   width: 100%;
   top: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.3);
   content: "";
   opacity: 0;
   -webkit-transition: all 0.3s linear;
   -moz-transition: all 0.3s linear;
   transition: all 0.3s linear;
 }
+
 .gallery ul li a:hover:after {
   opacity: 1;
 }
@@ -122,7 +146,7 @@ a {
   transition: all 0.5s ease-in-out;
 }
 .port img {
-  width: 50%;
+  width: 60%;
 }
 .port .description {
   float: left;
@@ -137,7 +161,7 @@ a {
 }
 .port p{
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 .port > * {
   opacity: 0;
@@ -157,6 +181,11 @@ a {
   opacity: 1;
   -webkit-transition-delay: 0.5s;
   transition-delay: 0.5s;
+}
+
+iframe{
+  width: 60%;
+  height: 38rem;
 }
 
 .close {
@@ -181,35 +210,24 @@ a {
   transition: all 0.3s ease-in-out;
 }
 
-#back01{
+
+#back01, #back02, #back03, #back04, #back05, #back06, #back07, #back08, #back09, #back10{
   position: absolute;
   background-color: white;
   border-radius: 20px;
   width: 40px;
   height: 40px;
-  margin: 213px 10px;
+  margin: 244px 20px;
   font-size: 2rem;
   border: none;
   outline: none;
   box-shadow: 0 4px 6px -1px rgb(0 0 0 / 10%);
+  cursor: pointer;
 }
 
-#back02, #back03{
+#forward01, #forward02, #forward03, #forward04, #forward05, #forward06, #forward07, #forward08, #forward09, #forward10{
   position: absolute;
-  background-color: white;
-  border-radius: 20px;
-  width: 40px;
-  height: 40px;
-  margin: 213px 10px;
-  font-size: 2rem;
-  border: none;
-  outline: none;
-  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 10%);
-}
-
-#forward01{
-  position: absolute;
-  margin: 213px -50px;
+  margin: 244px -60px;
   font-size: 2rem;
   background-color: white;
   border-radius: 20px;
@@ -218,19 +236,7 @@ a {
   border: none;
   outline: none;
   box-shadow: 0 4px 6px -1px rgb(0 0 0 / 10%);
-}
-
-#forward02, #forward03{
-  position: absolute;
-  margin: 213px -50px;
-  font-size: 2rem;
-  background-color: white;
-  border-radius: 20px;
-  width: 40px;
-  height: 40px;
-  border: none;
-  outline: none;
-  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 10%);
+  cursor:pointer;
 }
 
 /**
@@ -325,6 +331,7 @@ span {
   	animation: caret 1s steps(1) infinite;
 }
 
+
 @keyframes caret {
   	50% {
     	border-color: transparent;
@@ -400,7 +407,7 @@ width: 100%;
 
 .port .description{
   width: 100%;
-  padding: 0 5rem;
+  padding: 0 3rem;
 }
 
 .gallery ul {
@@ -429,15 +436,34 @@ position: relative;
 .carousel{
   padding: 5%;
 }
-#back01, #back02, #back03{
-  margin: 110px 5px;
+
+.row video{
+  width: 90%;
+  margin: auto;
+  padding-top: 5%;
+}
+
+.iframe-yt{
+  position: relative;
+  width: 100%;
+  height: 0;
+}
+.iframe-yt iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+#back01, #back02, #back03, #back04, #back05, #back06, #back07, #back08, #back09, #back10{
+  margin: 116px 5px;
   border-radius: 20px;
   width: 30px;
   height: 30px;
   font-size: 1.5rem;
 }
-#forward01, #forward02, #forward03{
-  margin: 110px -35px;
+#forward01, #forward02, #forward03, #forward04, #forward05, #forward06, #forward07, #forward08, #forward09, #forward10{
+  margin: 116px -35px;
   border-radius: 20px;
   width: 30px;
   height: 30px;
