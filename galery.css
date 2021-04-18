@@ -156,7 +156,7 @@ a {
   overflow: auto;
 }
 .port h1 {
-  font-size: 35px;
+  font-size: 33px;
   padding: 0;
 }
 .port p{
@@ -211,7 +211,7 @@ iframe{
 }
 
 
-#back01, #back02, #back03, #back04, #back05, #back06, #back07, #back08, #back09, #back10, #back11, #back12{
+#back01, #back02, #back03, #back04, #back05, #back06, #back07, #back08, #back09, #back10, #back11, #back12, #back13{
   position: absolute;
   background-color: white;
   border-radius: 20px;
@@ -225,7 +225,7 @@ iframe{
   cursor: pointer;
 }
 
-#forward01, #forward02, #forward03, #forward04, #forward05, #forward06, #forward07, #forward08, #forward09, #forward10, #forward11, #forward12{
+#forward01, #forward02, #forward03, #forward04, #forward05, #forward06, #forward07, #forward08, #forward09, #forward10, #forward11, #forward12, #forward13{
   position: absolute;
   margin: 244px -60px;
   font-size: 2rem;
@@ -331,6 +331,9 @@ span {
   	animation: caret 1s steps(1) infinite;
 }
 
+.text-bold{
+  font-weight: 500;
+}
 
 @keyframes caret {
   	50% {
@@ -459,14 +462,14 @@ position: relative;
   width: 100%;
 }
 
-#back01, #back02, #back03, #back04, #back05, #back06, #back07, #back08, #back09, #back10, #back11, #back12{
+#back01, #back02, #back03, #back04, #back05, #back06, #back07, #back08, #back09, #back10, #back11, #back12, #back13{
   margin: 116px 5px;
   border-radius: 20px;
   width: 30px;
   height: 30px;
   font-size: 1.5rem;
 }
-#forward01, #forward02, #forward03, #forward04, #forward05, #forward06, #forward07, #forward08, #forward09, #forward10, #forward11, #forward12{
+#forward01, #forward02, #forward03, #forward04, #forward05, #forward06, #forward07, #forward08, #forward09, #forward10, #forward11, #forward12, #forward13{
   margin: 116px -35px;
   border-radius: 20px;
   width: 30px;

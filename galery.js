@@ -216,6 +216,24 @@ $('#forward11').click(
     }
 );
 
+$('#back13').click(
+    () => {
+        const img = ["img/bar5.jpg", "img/bar2.jpg", "img/bar3.jpg", "img/bar4.jpg"]
+        i <= 0 ? i = img.length - 1 : i--;
+        $('#item13 .carousel img').attr('src', img[i]);
+
+    }
+);
+
+$('#forward13').click(
+    () => {
+        const img = ["img/bar5.jpg",, "img/bar2.jpg", "img/bar3.jpg", "img/bar4.jpg"]
+        i >= img.length -1 ? i = 0 : i++;
+        $('#item13 .carousel img').attr('src', img[i]);
+
+    }
+);
+
 document.addEventListener('DOMContentLoaded',function(event){
 
     var dataText = [ 
