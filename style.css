@@ -305,7 +305,7 @@ ul.nav-list{
     padding-top: 14rem;
 }
 .hello{
-    margin: 2rem;
+    margin: 6rem 2rem 1rem 2rem;
     text-align: center;
 }
 .details{
@@ -390,7 +390,7 @@ ul.nav-list{
 }
 
 .details2 p{
-  margin: 2rem 45rem;
+  margin: 2rem 30rem;
   line-height: 2.5rem;
   text-align: center;
 }
